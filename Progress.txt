@@ -1,0 +1,15 @@
+Date	  Task	                                      Status	      Notes
+May 25	Brainstorm project ideas	                  ✅ Complete	Decided on archery shot clock with integrated scorecard
+May 26	Write SDLC and plan out major classes & UML	✅ Complete	  Used Scorecard, TimerUtil, End, and ShotClockApp
+May 27	Begin coding TimerUtil and End classes	    ✅ Complete	  Timer includes buzzer and countdown with skip function
+May 28	Implement Scorecard logic	                  ✅ Complete	Supports 9s, 10s, Xs, end recording and final summary
+May 29	Develop ShotClockApp main loop	            ✅ Complete	  Mode selection (indoor/outdoor), full end cycle flow
+May 30	Initial testing & bug fixing	              ✅ Complete	Corrected input validation for scores
+June 2	Write pseudocode & algorithm flow	          ✅ Complete	Used in project planning document
+June 4	Write UML diagram	                          ✅ Complete	Included all class attributes and methods
+June 6	Create GitHub repository & upload files	    ✅ Complete	  Uploaded with README and main Java files
+June 8	Write prototype 	                          ✅ Complete	Created detailed SDLC, schedule
+June 10	Get feedback from teacher	                  ✅ Complete	Adjusted interface messages for clarity
+June 13	Write final closing report	                ✅ Complete	  Identified version 2 improvements
+June 15	Add release notes and cleanup	              ✅ Complete	Minor code cleanup and improved commenting
+June 18	Final submission	                          ✅ Complete  Uploaded to GitHub and submitted to Google Classroom

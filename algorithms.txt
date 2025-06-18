@@ -1,1 +1,86 @@
-Timer countdown logic, score switch, buzzer triggers.
+Main Algorithm (run() method):
+Welcome User
+
+Display a welcome message for the Archery Shot Clock App.
+
+User Selects Mode
+
+Ask the user to choose either Indoor or Outdoor mode.
+
+If Indoor:
+
+Set total ends = 20
+
+Set arrows per end = 3
+
+If Outdoor:
+
+Set total ends = 12
+
+Set arrows per end = 6
+
+For Each End (from 1 to totalEnds):
+
+Display the current end number.
+
+Prompt the user to press Enter to start the timer.
+
+Pre-shot Timer:
+
+Run a 10-second countdown timer.
+
+Beep once after it ends.
+
+Shooting Timer:
+
+Run a 120-second countdown for indoor or 240-second for outdoor.
+
+Beep three times at the end.
+
+Input Arrow Scores:
+
+Prompt user to enter arrow scores (X, 10–0) separated by spaces.
+
+Validate that the number of scores matches the expected arrow count.
+
+Record and Store Scores:
+
+Convert and count 9s, 10s, and Xs.
+
+Add the result to the scorecard.
+
+Show Progress:
+
+Display all entered ends so far.
+
+After All Ends Are Completed:
+
+Display final scores.
+
+Show total points, number of 9s, 10s, and Xs.
+
+Scoring Algorithm (recordEnd() method):
+Initialize total = 0, count9 = 0, count10 = 0, countX = 0
+
+For each score in the entered list:
+
+If score = "X":
+
+Add 10 to total
+
+Increment count10 and countX
+
+Else:
+
+Convert score to integer
+
+Validate it’s between 0 and 10
+
+Add to total
+
+If 9, increment count9
+
+If 10, increment count10
+
+Add a new End object with the recorded stats to the ends list.
+
